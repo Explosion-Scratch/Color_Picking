@@ -9,7 +9,7 @@ function colors() {
 }
 function setcolor(element) {
 	var thing = '#color-' + element
-	var color = 'rgba(' + random() + ',' + random() + ',' + random() + ')';
+	var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 	$(thing).css('background-color', color)
 }
 function random(up_to) {
