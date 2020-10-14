@@ -12,16 +12,14 @@
 	right: 0px;
 	top: 0px;
 	overflow: hidden;
+	font-size: 60px;
+	font-style: italic;
+	font-weight: 800;
 	display: flex;
 	margin: auto;
 	align-items:center;
   justify-content:center;
 	z-index: 10000;
-}
-#big {
-		font-size: 60px;
-	font-style: italic;
-	font-weight: 800;
 }
 .container {
 	max-width: 70vw;
