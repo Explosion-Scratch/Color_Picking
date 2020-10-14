@@ -33,4 +33,4 @@ function checkoutput(number) {
 	}
 };
 
-document.getElementById("color-1").addEventListener("click", checkoutput(1));
+document.getElementById("color-1").onclick = checkoutput(1);
