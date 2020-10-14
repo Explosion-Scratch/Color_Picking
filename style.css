@@ -7,6 +7,8 @@
 	position: fixed;
 	width: 100%;
 	right: 0px;
+	top: 0px;
+	text-align: center;
 }
 * {
 	padding: 0;
