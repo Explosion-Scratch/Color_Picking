@@ -1,6 +1,6 @@
 colors();
 function colors() {
-	var no = random(6);
+	var no = console.log(random(6));
 	setcolor(1);
 	setcolor(2);
 	setcolor(3);
