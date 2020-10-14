@@ -32,5 +32,3 @@ function checkoutput(number) {
 		console.log('E');
 	}
 };
-
-checkoutput(1);
