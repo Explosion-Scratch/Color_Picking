@@ -30,7 +30,7 @@ function checkoutput(number) {
 		if (number = no) {
 			$('#output').html('Correct!');
 		} else {
-			$(#)
+			$('#output').html('Wrong!')
 		}
 	};
 };
