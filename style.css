@@ -5,6 +5,9 @@
 	height: 10vh;
 	background: red;
 	padding: none;
+	position: fixed;
+	width: 100%;
+	right: 0px;
 }
 * {
 	padding: 0;
