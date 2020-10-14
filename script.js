@@ -1,6 +1,6 @@
 colors();
 function colors() {
-	var no = console.log(random(6));
+	const no = console.log(random(6));
 	setcolor(1);
 	setcolor(2);
 	setcolor(3);
@@ -9,10 +9,10 @@ function colors() {
 	setcolor(6);
 }
 function setcolor(element) {
-	if () {
+	if (no == element) {
 		var thing = '#color-' + element
-	var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-	$(thing).css('background-color', color)
+		var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+		$(thing).css('background-color', color)
 	};
 	
 }
