@@ -23,5 +23,8 @@ function random(up_to) {
 	return Math.floor((Math.random() * up_to) + 1);
 }
 function checkclicks() {
-	$('#color-1').onclick
+	$('#color-1').onclick = 
+};
+function checkoutput(number) {
+
 }
