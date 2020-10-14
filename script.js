@@ -31,4 +31,4 @@ function checkoutput(number) {
 	}
 };
 
-$('#color-1').onclick =  checkoutput(1);
+$('#color-1').addEventListener('click', checkoutput(1));
