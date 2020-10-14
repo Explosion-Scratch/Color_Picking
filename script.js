@@ -2,14 +2,14 @@ var no = random(6);
 var correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
 $('#lookfor').html(correct);
-$('#new-game').hide();
+//$('#new-game').hide();
 function newgame() {
 	no = random(6);
   correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 	colors();
 	$('#lookfor').html(correct);
 	$('.color').css('opacity', '1');
-	$('#new-game').slideDown();
+	//$('#new-game').slideDown();
 	//setTimeout(() => {  $('#new-game').slideUp() }, 2000);
 
 }
