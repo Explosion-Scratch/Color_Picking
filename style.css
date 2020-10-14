@@ -17,8 +17,8 @@ td {
 table {
 	border: 1px solid red;
 	border-collapse: collapse;
-	width: 399px;
-	height: 400px;
+	width: var(--table-size);
+	height: calc(var(--table-size));
 	margin: 0 auto;
 }
 tr {
