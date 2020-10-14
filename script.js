@@ -24,9 +24,11 @@ function random(up_to) {
 }
 
 function checkoutput(number) {
-		if (number = no) {
-			$('#output').html('Correct!');
-		} else {
-			$('#output').html('Wrong!');
-		};
-	};
+	if (number == no) {
+		console.log('F')
+	} else {
+		console.log('E');
+	}
+};
+
+$('#color-1').onclick =  checkoutput(1);
