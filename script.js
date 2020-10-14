@@ -3,7 +3,7 @@ function colors() {
 }
 function setcolor(element) {
 	var thing = '#color-' + element
-	var color = 'rgba(' 
+	var color = 'rgba(' + Math.floor((Math.random() * 255) + 1);
 	$(thing).css('background-color', 'red')
 }
 colors();
