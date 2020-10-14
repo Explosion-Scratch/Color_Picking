@@ -8,7 +8,8 @@
 	background: black;
 }
 td {
-	border: 1px solid black;
+	padding: 10px;
+	broder: 1px solid red;
 }
 table {
 	border-collapse: collapse;
