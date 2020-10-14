@@ -1,6 +1,6 @@
+const no = console.log(random(6));
 colors();
 function colors() {
-	const no = console.log(random(6));
 	setcolor(1);
 	setcolor(2);
 	setcolor(3);
