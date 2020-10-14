@@ -30,5 +30,3 @@ function checkoutput(number) {
 		console.log('E');
 	}
 };
-thing = $('#color-1')
-thing.addEventListener('click', checkoutput(1));
