@@ -9,6 +9,8 @@
 	padding: none;
 	margin: 0 auto;
 	position: fixed;
+	font-size: 60px;
+	font-weight: 800;
 }
 * {
 	padding: 0;
