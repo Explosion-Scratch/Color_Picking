@@ -9,7 +9,7 @@ function colors() {
 	setcolor(6);
 }
 function setcolor(element) {
-	if (no == element) {
+	if (no != element) {
 		var thing = '#color-' + element
 		var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 		$(thing).css('background-color', color)
