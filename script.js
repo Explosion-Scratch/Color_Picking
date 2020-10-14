@@ -22,3 +22,6 @@ function setcolor(element) {
 function random(up_to) {
 	return Math.floor((Math.random() * up_to) + 1);
 }
+function checkclicks() {
+	
+}
