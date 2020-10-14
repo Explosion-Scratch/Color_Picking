@@ -1,6 +1,7 @@
 var no = random(6);
 var correct = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
+
 function colors() {
 	setcolor(1);
 	setcolor(2);
