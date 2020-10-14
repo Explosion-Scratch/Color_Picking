@@ -14,6 +14,6 @@ function setcolor(element) {
 function random() {
 	return Math.floor((Math.random() * 255) + 1);
 }
-setInterval(function{
+setInterval(function(){
 	colors();
 }, 500);
