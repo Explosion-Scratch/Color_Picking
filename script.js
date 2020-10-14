@@ -28,7 +28,7 @@ function checkoutput(number) {
 		$('#output').html('Correct!');
 		console.log('F')
 	} else {
-		$('#output').html('Correct!');
+		$('#output').html('Incorrect!');
 		console.log('E');
 	}
 };
