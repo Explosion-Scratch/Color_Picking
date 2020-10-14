@@ -32,3 +32,5 @@ function checkoutput(number) {
 		console.log('E');
 	}
 };
+
+document.getElementById("color-1").addEventListener("click", checkoutput(1));
