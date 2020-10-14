@@ -28,36 +28,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-	<script>
-var qDuration=600; 
-var qCounter=0; 
-function quake() 
-{ 
-  var deltaX=1; 
-  if (window.moveBy) 
-  { 
-    for (qCounter=0; qCounter<qDuration; qCounter++) 
-    { 
-      if ((qCounter%4)==0) 
-      { 
-        window.moveBy(deltaX, 0); 
-      } 
-      else if ((qCounter%4)==2) 
-      { 
-        window.moveBy(-deltaX, 0); 
-      } 
-      if ((qCounter%30)==0) 
-      { 
-        if (qCounter<qDuration/2) 
-        { 
-          deltaX++; 
-        } 
-        else 
-        { 
-          deltaX--; 
-        } 
-      } 
-    } 
-	} 
-} 
-</script>
