@@ -3,7 +3,8 @@
 	--table-size: calc(40vw + 40vh);
 }
 #new-game {
-	background: red;
+	background: rgba(0,0,0,.2);
+	color: whitesmoke;
 	position: fixed;
 	padding: 10px;
 	width: 100%;
@@ -13,6 +14,7 @@
 	overflow: hidden;
 	font-size: 30px;
 	font-style: italic;
+	font-weight: 800;
 }
 * {
 	padding: 0;
