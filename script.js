@@ -1,5 +1,5 @@
 var no = random(6);
-var correct = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+var correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
 $('#lookfor').html(correct)
 function colors() {
@@ -13,7 +13,7 @@ function colors() {
 function setcolor(element) {
 	var thing = '#color-' + element
 	if (no != element) {
-		var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+		var color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 		$(thing).css('background-color', color);
 	} else {
 		$(thing).css('background-color', correct);
