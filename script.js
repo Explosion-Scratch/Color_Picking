@@ -22,9 +22,7 @@ function setcolor(element) {
 function random(up_to) {
 	return Math.floor((Math.random() * up_to) + 1);
 }
-function checkclicks() {
-	
-};
+
 function checkoutput(number) {
 	if ($('#color-' + number)clicked == true) {
 		$('#color-1').onclick = function() {
@@ -32,7 +30,7 @@ function checkoutput(number) {
 				$('#output').html('Correct!');
 			} else {
 				$('#output').html('Wrong!');
-			}
+			};
 		};
 	};
 };
