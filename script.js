@@ -16,4 +16,4 @@ function random() {
 }
 setInterval(function(){
 	colors();
-}, 500);
+}, 2000);
