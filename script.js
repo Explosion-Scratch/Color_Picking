@@ -10,7 +10,7 @@ function newgame() {
 	$('#lookfor').html(correct);
 	$('.color').css('opacity', '1');
 	$('#new-game').slideDown();
-	setTimeout(() => {  $('#new-game').slideUp() }, 2000);
+	//setTimeout(() => {  $('#new-game').slideUp() }, 2000);
 
 }
 
