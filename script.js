@@ -27,6 +27,10 @@ function checkclicks() {
 };
 function checkoutput(number) {
 	$('#color-1').onclick = function() {
-		
+		if (number = no) {
+			$('#output').html('Correct!');
+		} else {
+			$(#)
+		}
 	};
 };
