@@ -3,7 +3,7 @@
 	--table-size: calc(40vw + 40vh);
 }
 #new-game {
-	background: rgba(0,0,0,.8);
+	background: rgba(0,0,0,.8) !important;
 	color: whitesmoke;
 	position: fixed;
 	padding: 10px;
@@ -19,6 +19,7 @@
 	margin: auto;
 	align-items:center;
   justify-content:center;
+	z-index: 10000;
 }
 * {
 	padding: 0;
