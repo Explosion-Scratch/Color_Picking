@@ -21,6 +21,10 @@
   justify-content:center;
 	z-index: 10000;
 }
+.container {
+	max-width: 70vw;
+	display: block;
+}
 * {
 	padding: 0;
 	font-family: Raleway;
