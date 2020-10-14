@@ -30,4 +30,3 @@ function checkoutput(number) {
 			$('#output').html('Wrong!');
 		};
 	};
-};
