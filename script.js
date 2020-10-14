@@ -9,9 +9,12 @@ function colors() {
 	setcolor(6);
 }
 function setcolor(element) {
-	var thing = '#color-' + element
+	if () {
+		var thing = '#color-' + element
 	var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 	$(thing).css('background-color', color)
+	};
+	
 }
 function random(up_to) {
 	return Math.floor((Math.random() * up_to) + 1);
