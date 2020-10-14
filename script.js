@@ -26,12 +26,13 @@ function checkclicks() {
 	
 };
 function checkoutput(number) {
-	if )
-	$('#color-1').onclick = function() {
-		if (number = no) {
-			$('#output').html('Correct!');
-		} else {
-			$('#output').html('Wrong!');
-		}
+	if ($('#color-' + number)clicked == true) {
+		$('#color-1').onclick = function() {
+			if (number = no) {
+				$('#output').html('Correct!');
+			} else {
+				$('#output').html('Wrong!');
+			}
+		};
 	};
 };
