@@ -26,9 +26,7 @@ function random(up_to) {
 function checkoutput(number) {
 	if (number == no) {
 		$('#output').html('Correct!');
-		console.log('F')
 	} else {
 		$('#output').html('Incorrect!');
-		console.log('E');
 	}
 };
