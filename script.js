@@ -1,4 +1,7 @@
 function colors() {
-	$('#color-1').css('background-color', 'red')
+}
+function setcolor(element) {
+	var thing = '#color-' + element
+	$(thing).css('background-color', 'red')
 }
 colors();
