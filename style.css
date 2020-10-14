@@ -18,7 +18,7 @@ table {
 	border: 1px solid red;
 	border-collapse: collapse;
 	width: var(--table-size);
-	height: calc(var(--table-size));
+	height: calc(var(--table-size)/2);
 	margin: 0 auto;
 }
 tr {
