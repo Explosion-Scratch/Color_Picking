@@ -3,6 +3,8 @@
 }
 #new-game {
 	height: 10vh;
+	background: red;
+	padding: none;
 }
 * {
 	padding: 0;
