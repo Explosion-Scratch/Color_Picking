@@ -1,5 +1,6 @@
+colors();
 function colors() {
-	var random = random(6);
+	var no = random(6);
 	setcolor(1);
 	setcolor(2);
 	setcolor(3);
@@ -15,4 +16,3 @@ function setcolor(element) {
 function random(up_to) {
 	return Math.floor((Math.random() * up_to) + 1);
 }
-colors();
