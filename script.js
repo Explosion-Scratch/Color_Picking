@@ -24,7 +24,6 @@ function random(up_to) {
 }
 
 function checkoutput(number) {
-	$('#color-1').onclick = function() {
 		if (number = no) {
 			$('#output').html('Correct!');
 		} else {
