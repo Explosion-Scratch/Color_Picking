@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 :root {
 	--table-size: calc(40vw + 40vh);
 }
@@ -15,6 +16,7 @@
 }
 * {
 	padding: 0;
+	font-family: Raleway;
 }
 .color {
 	transition: background-color 0.4s ease, opacity 2s ease-out;
