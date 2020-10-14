@@ -2,7 +2,7 @@ var no = random(6);
 var correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
 $('#lookfor').html(correct);
-$('#new-game').hide();
+$('#new-game').show();
 function newgame() {
 	no = random(6);
   correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
