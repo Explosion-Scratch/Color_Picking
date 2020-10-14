@@ -14,6 +14,8 @@ function setcolor(element) {
 		var thing = '#color-' + element
 		var color = 'rgba(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 		$(thing).css('background-color', color)
+	} else {
+		
 	};
 	
 }
