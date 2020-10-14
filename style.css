@@ -1,5 +1,5 @@
 :root {
-	--table-size: 40vw;
+	--table-size: calc(40vw + 40vh);
 }
 * {
 	padding: 0;
