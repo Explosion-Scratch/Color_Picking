@@ -24,13 +24,11 @@ function random(up_to) {
 }
 
 function checkoutput(number) {
-	if ($('#color-' + number)clicked == true) {
-		$('#color-1').onclick = function() {
-			if (number = no) {
-				$('#output').html('Correct!');
-			} else {
-				$('#output').html('Wrong!');
-			};
+	$('#color-1').onclick = function() {
+		if (number = no) {
+			$('#output').html('Correct!');
+		} else {
+			$('#output').html('Wrong!');
 		};
 	};
 };
