@@ -1,5 +1,5 @@
 :root {
-	--table-size: 400px;
+	--table-size: 60vw;
 }
 * {
 	padding: 0;
@@ -25,5 +25,5 @@ tr {
 }
 #lookfor {
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 }
