@@ -29,6 +29,7 @@ function checkoutput(number) {
 	if (number == no) {
 		$('#output').html('Correct!');
 	} else {
-		$('#output').html('Incorrect!');
+		$('#output').html('Incorrect!')
+		$('#color'+ number).css('opacity', '0');
 	}
 };
