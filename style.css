@@ -14,8 +14,8 @@ td {
 table {
 	border: 1px solid red;
 	border-collapse: collapse;
-	width: 150px;
-	height: width;
+	width: 400px;
+	height: 400px;
 	margin: 0 auto;
 }
 tr {
