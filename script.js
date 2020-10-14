@@ -1,7 +1,8 @@
 var no = random(6);
 var correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
-$('#lookfor').html(correct)
+$('#lookfor').html(correct);
+
 function colors() {
 	setcolor(1);
 	setcolor(2);
