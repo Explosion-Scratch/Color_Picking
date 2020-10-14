@@ -1,4 +1,5 @@
 function colors() {
+	var random = 
 	setcolor(1);
 	setcolor(2);
 	setcolor(3);
@@ -11,7 +12,7 @@ function setcolor(element) {
 	var color = 'rgba(' + random() + ',' + random() + ',' + random() + ')';
 	$(thing).css('background-color', color)
 }
-function random() {
-	return Math.floor((Math.random() * 255) + 1);
+function random(up_to) {
+	return Math.floor((Math.random() * up_to) + 1);
 }
 colors();
