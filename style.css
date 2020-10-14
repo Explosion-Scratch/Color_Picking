@@ -3,7 +3,7 @@
 	--table-size: calc(40vw + 40vh);
 }
 #new-game {
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.8);
 	color: whitesmoke;
 	position: fixed;
 	padding: 10px;
