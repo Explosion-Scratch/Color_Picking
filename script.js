@@ -1,5 +1,10 @@
 function colors() {
 	setcolor(1);
+	setcolor(2);
+	setcolor(3);
+	setcolor(4);
+	setcolor(5);
+	setcolor(6);
 }
 function setcolor(element) {
 	var thing = '#color-' + element
