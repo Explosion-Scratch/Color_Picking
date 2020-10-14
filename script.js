@@ -1,4 +1,4 @@
-const no = console.log(random(6));
+var no = random(6);
 colors();
 function colors() {
 	setcolor(1);
