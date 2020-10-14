@@ -30,6 +30,6 @@ function checkoutput(number) {
 		$('#output').html('Correct!');
 	} else {
 		$('#output').html('Incorrect!')
-		$('#color-'+ number).fade();
+		$('#color-'+ number).css('opacity', '0');
 	}
 };
