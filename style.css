@@ -2,7 +2,7 @@
 :root {
 	--table-size: calc(40vw + 40vh);
 }
-#new-game {
+#new-game, #wrong {
 	background: rgba(0,0,0,.8) !important;
 	color: whitesmoke;
 	position: fixed;
