@@ -21,6 +21,9 @@
   justify-content:center;
 	z-index: 10000;
 }
+#wrong {
+	color: #ee3d3d;
+}
 .container {
 	max-width: 70vw;
 	display: block;
