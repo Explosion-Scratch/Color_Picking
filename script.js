@@ -2,7 +2,7 @@ var no = random(6);
 var correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 colors();
 $('#lookfor').html(correct);
-$('#new-game').hide();
+$('#new-game, #wrong').hide();
 function newgame() {
 	no = random(6);
   correct = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
@@ -39,10 +39,12 @@ function random(up_to) {
 
 function checkoutput(number) {
 	if (number == no) {
-		$('#output').html('Correct!');
+		console.log('Correct!');
 		newgame();
 	} else {
-		$('#output').html('Incorrect!')
+		console.log('Incorrect!')
 		$('#color-'+ number).css('opacity', '0');
+		$('#wrong').slideDown();
+		setTimeout(() => {  $('#wrong').slideUp() }, 2000);
 	}
 };
