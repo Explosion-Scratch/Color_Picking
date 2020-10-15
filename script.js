@@ -42,9 +42,7 @@ function checkoutput(number) {
 		console.log('Correct!');
 		newgame();
 	} else {
-		console.log('Incorrect!')
+		$('output').html('Incorrect!')
 		$('#color-'+ number).css('opacity', '0');
-		$('#wrong').slideDown();
-		setTimeout(() => {  $('#wrong').slideUp() }, 2000);
 	}
 };
